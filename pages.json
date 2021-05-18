@@ -1,0 +1,47 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/home/index",
+			"style": {
+				"navigationBarTitleText": "uni-app"
+			},		
+			"aliasPath":"/",
+			"name":"index"
+		},
+		{
+			"path": "pages/global/error",
+			"aliasPath":"/global/error",
+			"name":"error"
+		}
+	],
+	"globalStyle": {
+		"navigationStyle":"custom",
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"tabBar":{
+		"navigationStyle":"custom",
+		"color":"#333",
+		"selectedColor":"deepskyblue",
+		"backgroundColor":"#eee",
+		"borderStyle":"white",
+		"height":"70px",
+		"list":[	            
+			{				
+				"pagePath":"pages/global/error",
+				"text":"群聊管理"
+				//"iconPath":"static/tabbar/chat.png",
+				//"selectedIconPath":"static/tabbar/chats_clicked.png"
+			},
+			{
+				"pagePath":"pages/home/index",
+				"text":"屏蔽管理"
+				//"iconPath":"static/tabbar/exclude.png",
+				//"selectedIconPath":"static/tabbar/exclude_clicked.png"
+			}
+					
+		]
+	}
+}

@@ -1,0 +1,1 @@
+<view class="content"><image class="logo" src="/static/logo.png"></image><view class="text-area"><text class="title">{{test}}</text><button data-event-opts="{{[['tap',[['go',['$0','/error'],['$Router']]]]]}}" bindtap="__e"></button></view></view>

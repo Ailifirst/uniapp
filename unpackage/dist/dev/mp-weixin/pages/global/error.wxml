@@ -1,0 +1,1 @@
+<view><image class="logo" src="/static/logo.png"></image>{{'404\n\t'+currentUser+''}}</view>

@@ -1,0 +1,33 @@
+{
+  "pages": [
+    "pages/home/index",
+    "pages/global/error"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationStyle": "custom",
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "uni-app",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "navigationStyle": "custom",
+    "color": "#333",
+    "selectedColor": "deepskyblue",
+    "backgroundColor": "#eee",
+    "borderStyle": "white",
+    "height": "70px",
+    "list": [
+      {
+        "pagePath": "pages/global/error",
+        "text": "群聊管理"
+      },
+      {
+        "pagePath": "pages/home/index",
+        "text": "屏蔽管理"
+      }
+    ]
+  },
+  "usingComponents": {}
+}
